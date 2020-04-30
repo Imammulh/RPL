@@ -1,0 +1,28 @@
+.login .head {
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.login .head img {
+    max-height: 80px;
+    max-width: 80px;
+    margin-bottom: 16px;
+}
+
+.login .loginBox {
+    background-color: white;
+    padding: 36px;
+    width: 540px;
+    border-radius: 16px;
+    box-shadow: 4px 0px 24px rgba(0, 0, 0, 0.04);
+    margin-bottom: 60px;
+}
+
+
+/* mobile styling */
+
+@media only screen and (max-width: 800px) {
+    .login .loginBox {
+        width: 460px;
+    }
+}
