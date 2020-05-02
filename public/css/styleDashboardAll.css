@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+body {
+    background-color: #F9FBFE;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Nav Bar */
+.navbar {
+    padding: 20px 0px;
+    box-shadow: 4px 0px 40px rgba(0, 0, 0, 0.04);
+}
+
+.navbar .navbar-nav .nav-item .active {
+    color: #2F80ED;
+}
+
+.navbar .navbar-brand h2 {
+    font-size: 24px;
+    margin-bottom: 0px;
+    color: #2F80ED;
+    font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #97BFF6;
+    transition: all 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #2F80ED;
+}
+
+/* main */
+.dashboardAll {
+    margin: 80px 0px;
+}
+
+.dashboardAll .head .text {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.dashboardAll .head .button {
+    margin-bottom: 32px;
+}
+
+/* table */
+.dashboardAll .table {
+    border-radius: 36px;
+}
+
+.dashboardAll .table-overflow {
+    height: 400px;
+    overflow: auto;
+}
+
+
+.dashboardAll .table thead th {
+    color: white;
+}

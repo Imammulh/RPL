@@ -20,3 +20,9 @@ Route::get('/login-admin', 'PagesController@login');
 
 // page bantuan
 Route::get('/bantuan', 'PagesController@bantuan');
+
+// page dashboard profil
+Route::get('/dashboard-profil', 'PagesController@profil');
+
+// Page dashboard all
+Route::get('/dashboard-all', 'PagesController@all');

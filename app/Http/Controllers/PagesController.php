@@ -16,6 +16,16 @@ class PagesController extends Controller
 
     public function bantuan()
     {
-        return 'hello world!';
+        return 'Bantuan';
+    }
+
+    public function all()
+    {
+        return view('admin/all');
+    }
+
+    public function profil()
+    {
+        return view('admin/profil');
     }
 }
