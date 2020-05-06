@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 class PagesController extends Controller
 {
+    // user
     public function home()
     {
         return view('search');
@@ -17,15 +18,5 @@ class PagesController extends Controller
     public function bantuan()
     {
         return 'Bantuan';
-    }
-
-    public function all()
-    {
-        return view('admin/all');
-    }
-
-    public function profil()
-    {
-        return view('admin/profil');
     }
 }

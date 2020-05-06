@@ -22,7 +22,13 @@ Route::get('/login-admin', 'PagesController@login');
 Route::get('/bantuan', 'PagesController@bantuan');
 
 // page dashboard profil
-Route::get('/dashboard-profil', 'PagesController@profil');
+Route::get('/dashboard-profil', 'DashboardController@profil');
 
 // Page dashboard all
-Route::get('/dashboard-all', 'PagesController@all');
+Route::get('/dashboard-all', 'DashboardController@all');
+
+// page dahsboard proses
+Route::get('/dashboard-process', 'DashboardController@process');
+
+// page dashboard selesai
+Route::get('/dashboard-done', 'DashboardController@done');

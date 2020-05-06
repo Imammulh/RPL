@@ -33,61 +33,19 @@
                         </tr>
                     </thead>
                     <tbody>
+                    <?php $i = 1?>
+                    @foreach($data_ktp as $ktp)
                         <tr>
-                            <th scope="row">1</th>
-                            <td>Imam Mulhaq Rosyadi</td>
-                            <td>01679765443368363</td>
-                            <td>Diproses</td>
+                            <th scope="row">{{ $i }}</th>
+                            <td>{{ $ktp->nama }}</td>
+                            <td>{{ $ktp->nik }}</td>
+                            <td>{{ $ktp->alamat }}</td>
                             <td><a href="#" class="btn btn-info mr-2">EDIT</a><a href="#"
                                     class="btn btn-danger">DELETE</a>
                             </td>
                         </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Imam Mulhaq Rosyadi</td>
-                            <td>01679765443368363</td>
-                            <td>Diproses</td>
-                            <td><a href="#" class="btn btn-info mr-2">EDIT</a><a href="#"
-                                    class="btn btn-danger">DELETE</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Imam Mulhaq Rosyadi</td>
-                            <td>01679765443368363</td>
-                            <td>Diproses</td>
-                            <td><a href="#" class="btn btn-info mr-2">EDIT</a><a href="#"
-                                    class="btn btn-danger">DELETE</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Imam Mulhaq Rosyadi</td>
-                            <td>01679765443368363</td>
-                            <td>Diproses</td>
-                            <td><a href="#" class="btn btn-info mr-2">EDIT</a><a href="#"
-                                    class="btn btn-danger">DELETE</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Imam Mulhaq Rosyadi</td>
-                            <td>01679765443368363</td>
-                            <td>Diproses</td>
-                            <td><a href="#" class="btn btn-info mr-2">EDIT</a><a href="#"
-                                    class="btn btn-danger">DELETE</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Imam Mulhaq Rosyadi</td>
-                            <td>01679765443368363</td>
-                            <td>Diproses</td>
-                            <td><a href="#" class="btn btn-info mr-2">EDIT</a><a href="#"
-                                    class="btn btn-danger">DELETE</a>
-                            </td>
-                        </tr>
-
+                    <?php $i++?>
+                    @endforeach
                     </tbody>
                 </table>
             </div>
