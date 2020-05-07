@@ -11,12 +11,21 @@
                 <div class="row text">
                     <h2 class="col-12 font-weight-bold">Data Semua e-KTP</h2>
                 </div>
+                @if(session('sukses'))
+                <div class="row">
+                    <div class="col-12">
+                        <div class="alert alert-success" role="alert">
+                            {{session('sukses')}}
+                        </div>
+                    </div>
+                </div>
+                @endif
                 <div class="d-flex flex-row justify-content-between button">
                     <form class="form-inline" action="" method="">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
-                    <a href="#" class="btn btn-primary">TAMBAH e-KTP</a>
+                    <a href="/tambah-ektp" class="btn btn-primary">TAMBAH e-KTP</a>
                 </div>
             </div>
 

@@ -21,6 +21,7 @@ Route::get('/login-admin', 'PagesController@login');
 // page bantuan
 Route::get('/bantuan', 'PagesController@bantuan');
 
+// dashboard
 // page dashboard profil
 Route::get('/dashboard-profil', 'DashboardController@profil');
 
@@ -32,3 +33,9 @@ Route::get('/dashboard-process', 'DashboardController@process');
 
 // page dashboard selesai
 Route::get('/dashboard-done', 'DashboardController@done');
+
+// page dashboard tambah data
+Route::get('/tambah-ektp', 'DashboardController@tambah');
+
+// Membuat data baru
+Route::post('/dashboard-all', 'DashboardController@store');
