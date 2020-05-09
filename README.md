@@ -40,3 +40,4 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 ### Send Email to Registrant
 
 ## Activity Diagram
+![TUGASKULIAH8 (1)](https://user-images.githubusercontent.com/60084317/81479739-5d15c180-924f-11ea-9e48-355fd526aca7.jpg)
