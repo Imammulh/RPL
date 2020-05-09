@@ -38,3 +38,4 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 ### Send Email to Registrant
 
 ## Activity Diagram
+https://github.com/Imammulh/RPL/issues/1#issue-615213965
