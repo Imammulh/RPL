@@ -27,7 +27,7 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 1.  Sebagai seorang sipil, saya ingin mengetahui informasi mengenai pembuatan e-KTP
 
 ## Use Case Diagram
-https://github.com/Imammulh/RPL/issues/1#issue-615213965
+https://user-images.githubusercontent.com/60084317/81479542-0d82c600-924e-11ea-8512-5d68810f3247.JPG
 ## Use Case Description
 ### Log In
 ### Mencari NIK
