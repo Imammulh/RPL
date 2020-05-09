@@ -45,3 +45,6 @@ Route::get('/{id}/edit', 'DashboardController@edit');
 
 // Mengupdate data dari edit
 Route::post('/{id}/update', 'DashboardController@update');
+
+// mendelete data
+Route::get('/{id}/delete', 'DashboardController@delete');

@@ -18,6 +18,7 @@ class DashboardController extends Controller
         return view('admin/all', ['data_ktp' => $data_ktp]);
     }
 
+    // fungsi create data
     public function tambah()
     {
         return view('admin/tambah');
@@ -28,7 +29,9 @@ class DashboardController extends Controller
         \App\Data_ktp::create($request->all());
         return redirect('dashboard-all')->with('sukses', 'Data berhasil ditambah!');
     }
+    // end
 
+    // fungsi edit data
     public function edit($id)
     {
         $ktp = \App\Data_ktp::find($id);
@@ -42,6 +45,17 @@ class DashboardController extends Controller
 
         return redirect('dashboard-all')->with('sukses', 'Data berhasil diupdate!');
     }
+    // end
+
+    // fungsi delete data
+    public function delete($id)
+    {
+        $ktp = \App\Data_ktp::find($id);
+        $ktp->delete($ktp);
+
+        return redirect('dashboard-all')->with('sukses', 'Data berhasil dihapus!');
+    }
+    // end
 
     public function process()
     {

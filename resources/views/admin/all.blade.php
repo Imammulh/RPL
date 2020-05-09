@@ -54,10 +54,77 @@
                                     class="font-weight-bold text-success"
                                 @endif>{{ $ktp->status_ektp }}</td>
                             <td>
-                                <a href="/{{ $ktp->id }}/edit" class="btn-sm btn-warning mr-2">EDIT</a>
-                                <a href="#" class="btn-sm btn-danger">DELETE</a>
+                                <a class="btn-sm btn-info mr-2 text-white" data-toggle="modal" data-target="#{{$ktp->id}}" style="cursor: pointer;">SHOW</a>
+                                <a href="/{{ $ktp->id }}/edit" class="btn-sm btn-warning mr-2 text-white">EDIT</a>
+                                <a href="/{{ $ktp->id}}/delete" onclick="return confirm('Apakah anda yakin data e-KTP ini ingin di hapus?')"class="btn-sm btn-danger">DELETE</a>
                             </td>
                         </tr>
+                        <!-- Modal -->
+                        <div class="modal fade" id="{{$ktp->id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header  bg-primary">
+                                <h5 class="modal-title text-white" id="exampleModalLongTitle">Data e-KTP</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <label for="nama">NIK:</label>
+                                        <p>{{ $ktp->nik }}</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label for="nama">Nama:</label>
+                                        <p>{{ $ktp->nama }}</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label for="nama">Kota, Tanggal Lahir:</label>
+                                        <p>{{ $ktp->kota_lahir }}, {{ $ktp->tanggal_lahir}}</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label for="nama">Jenis Kelamin:</label>
+                                        <p>@if($ktp->jenis_kelamin == 'L')
+                                                Laki-laki
+                                            @else
+                                                Perempuan
+                                            @endif
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label for="nama">Agama:</label>
+                                        <p>{{ $ktp->agama }}</p>
+                                    </li>
+                                    <li class="list-group-item" >
+                                        <label for="nama">Alamat:</label>
+                                        <p>{{ $ktp->alamat }}</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label for="nama">Status Pekerjaan:</label>
+                                        <p>{{ $ktp->status_pekerjaan }}</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label for="nama">Kewarganegaraan:</label>
+                                        <p>{{ $ktp->kewarganegaraan }}</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label for="nama">Email:</label>
+                                        <p>{{ $ktp->email }}</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <label for="nama">Status e-KTP:</label>
+                                        <p>{{ $ktp->status_ektp }}</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    <!-- end modal -->
                     <?php $i++?>
                     @endforeach
                     </tbody>
@@ -66,6 +133,9 @@
         </div>
     </div>
     <!-- end table -->
+
+    <!-- modal -->
+
 
     <!-- end main -->
 @endsection

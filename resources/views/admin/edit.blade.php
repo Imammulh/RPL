@@ -53,7 +53,7 @@
                         <div class="col-6">
                         <div class="form-group">
                                 <label for="agama">Agama</label>
-                                <select class="form-control" id="jenis_kelamin" name="jenis_kelamin">
+                                <select class="form-control" id="agama" name="agama">
                                     <option value="islam" @if($ktp->agama == 'islam') selected @endif>Islam</option>
                                     <option value="kristen protestan" @if($ktp->agama == 'kristen protestan') selected @endif>Kristen protestan</option>
                                     <option value="katolik" @if($ktp->agama == 'katolik') selected @endif>Katolik</option>

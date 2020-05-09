@@ -31,6 +31,8 @@ body {
     color: #2F80ED;
 }
 
+/* end navbar */
+
 /* main */
 .dashboardAll {
     margin: 80px 0px;
@@ -45,6 +47,8 @@ body {
     margin-bottom: 32px;
 }
 
+/* end main */
+
 /* table */
 .dashboardAll .table {
     border-radius: 36px;
@@ -55,7 +59,28 @@ body {
     overflow: auto;
 }
 
-
 .dashboardAll .table thead th {
     color: white;
 }
+
+/* end table */
+.modal-body li {
+    list-style-type: none;
+}
+
+.modal-body label {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.modal-body li p {
+    margin-bottom: 0px;
+    font-weight: 700;
+    color: #333333;
+    font-size: 18px;
+}
+
+
+/* modal */
