@@ -48,9 +48,14 @@
                             <th scope="row">{{ $i }}</th>
                             <td>{{ $ktp->nama }}</td>
                             <td>{{ $ktp->nik }}</td>
-                            <td>{{ $ktp->alamat }}</td>
-                            <td><a href="#" class="btn btn-info mr-2">EDIT</a><a href="#"
-                                    class="btn btn-danger">DELETE</a>
+                            <td @if($ktp->status_ektp == 'Diproses')
+                                    class="font-weight-bold text-warning"
+                                @else($ktp->status_ektp == 'Selesasi')
+                                    class="font-weight-bold text-success"
+                                @endif>{{ $ktp->status_ektp }}</td>
+                            <td>
+                                <a href="/{{ $ktp->id }}/edit" class="btn-sm btn-warning mr-2">EDIT</a>
+                                <a href="#" class="btn-sm btn-danger">DELETE</a>
                             </td>
                         </tr>
                     <?php $i++?>

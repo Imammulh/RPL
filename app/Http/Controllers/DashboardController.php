@@ -29,6 +29,20 @@ class DashboardController extends Controller
         return redirect('dashboard-all')->with('sukses', 'Data berhasil ditambah!');
     }
 
+    public function edit($id)
+    {
+        $ktp = \App\Data_ktp::find($id);
+        return view('admin/edit', ['ktp' => $ktp]);
+    }
+
+    public function update(Request $request, $id)
+    {
+        $ktp = \App\Data_ktp::find($id);
+        $ktp->update($request->all());
+
+        return redirect('dashboard-all')->with('sukses', 'Data berhasil diupdate!');
+    }
+
     public function process()
     {
         return view('admin/process');

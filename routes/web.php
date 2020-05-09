@@ -39,3 +39,9 @@ Route::get('/tambah-ektp', 'DashboardController@tambah');
 
 // Membuat data baru
 Route::post('/dashboard-all', 'DashboardController@store');
+
+// page dashboard edit data
+Route::get('/{id}/edit', 'DashboardController@edit');
+
+// Mengupdate data dari edit
+Route::post('/{id}/update', 'DashboardController@update');

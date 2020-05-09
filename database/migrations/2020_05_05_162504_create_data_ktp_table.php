@@ -20,6 +20,7 @@ class CreateDataKtpTable extends Migration
             $table->string('kota_lahir', 200);
             $table->string('tanggal_lahir', 200);
             $table->string('jenis_kelamin', 1);
+            $table->string('agama', 200);
             $table->string('alamat', 200);
             $table->string('status_pekerjaan', 200);
             $table->string('kewarganegaraan', 200);
