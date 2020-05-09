@@ -28,6 +28,7 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 
 ## Use Case Diagram
 https://user-images.githubusercontent.com/60084317/81479542-0d82c600-924e-11ea-8512-5d68810f3247.JPG
+https://github.com/Imammulh/RPL/issues/1#issue-615213965
 ## Use Case Description
 ### Log In
 ### Mencari NIK
