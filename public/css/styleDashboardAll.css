@@ -76,7 +76,7 @@ body {
 }
 
 .modal-body li p {
-    margin-bottom: 0px;
+    /* margin-bottom: 0px; */
     font-weight: 700;
     color: #333333;
     font-size: 18px;

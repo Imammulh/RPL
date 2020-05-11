@@ -10,11 +10,6 @@ class PagesController extends Controller
         return view('search');
     }
 
-    public function login()
-    {
-        return view('login');
-    }
-
     public function bantuan()
     {
         return 'Bantuan';

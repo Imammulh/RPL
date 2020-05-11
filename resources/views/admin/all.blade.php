@@ -64,26 +64,26 @@
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                             <div class="modal-header  bg-primary">
-                                <h5 class="modal-title text-white" id="exampleModalLongTitle">Data e-KTP</h5>
+                                <h5 class="modal-title text-white font-weight-bold" id="exampleModalLongTitle">Data e-KTP</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">
+                                <ul class="">
+                                    <li class="">
                                         <label for="nama">NIK:</label>
                                         <p>{{ $ktp->nik }}</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="">
                                         <label for="nama">Nama:</label>
                                         <p>{{ $ktp->nama }}</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="">
                                         <label for="nama">Kota, Tanggal Lahir:</label>
                                         <p>{{ $ktp->kota_lahir }}, {{ $ktp->tanggal_lahir}}</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="">
                                         <label for="nama">Jenis Kelamin:</label>
                                         <p>@if($ktp->jenis_kelamin == 'L')
                                                 Laki-laki
@@ -92,27 +92,27 @@
                                             @endif
                                         </p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="">
                                         <label for="nama">Agama:</label>
                                         <p>{{ $ktp->agama }}</p>
                                     </li>
-                                    <li class="list-group-item" >
+                                    <li class="" >
                                         <label for="nama">Alamat:</label>
                                         <p>{{ $ktp->alamat }}</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="">
                                         <label for="nama">Status Pekerjaan:</label>
                                         <p>{{ $ktp->status_pekerjaan }}</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="">
                                         <label for="nama">Kewarganegaraan:</label>
                                         <p>{{ $ktp->kewarganegaraan }}</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="">
                                         <label for="nama">Email:</label>
                                         <p>{{ $ktp->email }}</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="">
                                         <label for="nama">Status e-KTP:</label>
                                         <p>{{ $ktp->status_ektp }}</p>
                                     </li>

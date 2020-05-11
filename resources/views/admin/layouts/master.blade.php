@@ -37,7 +37,7 @@
                     <li class="nav-item mx-md-2"><a href="{{ url('/dashboard-done') }}" class="nav-link">e-KTP Done</a></li>
                 </ul>
 
-                <button class="btn btn-primary" type="button">LOG OUT</button>
+                <a href="/logout" class="btn btn-primary">LOG OUT</a>
             </div>
         </div>
     </nav>

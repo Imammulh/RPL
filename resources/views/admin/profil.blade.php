@@ -10,7 +10,7 @@
             <div class="head">
                 <div class="row text">
                     <h2 class="col-12 font-weight-bold">Profil</h2>
-                    <p class="col-12">Welcome back,<br>Kecamatan Dramaga</p>
+                    <p class="col-12">Welcome back,<br>{{Auth()->user()->nama_kecamatan}}</p>
                 </div>
                 <div class="d-flex button">
                     <a href="#" class="btn btn-info ml-auto">EDIT</a>
@@ -22,16 +22,15 @@
                     <ul>
                         <li>
                             <label for="namaKecamatan">Nama Kecamatan</label>
-                            <p class="font-weight-bold" id="namaKecamatan">Kecamatan Dramaga</p>
+                            <p class="font-weight-bold" id="namaKecamatan">{{Auth()->user()->nama_kecamatan}}</p>
                         </li>
                         <li>
                             <label for="alamatKecamatan">Alamat Kecamatan</label>
-                            <p class="font-weight-bold" id="alamatKecamatan">Jl. Ps. Dramaga No.74, RT.6/RW.2, Dramaga,
-                                Bogor, Jawa Barat 16680, Indonesia</p>
+                            <p class="font-weight-bold" id="alamatKecamatan">{{Auth()->user()->alamat_kecamatan}}</p>
                         </li>
                         <li>
                             <label for="namaCamat">Camat</label>
-                            <p class="font-weight-bold" id="namaCamat">Ivan Pamudia</p>
+                            <p class="font-weight-bold" id="namaCamat">{{Auth()->user()->camat}}</p>
                         </li>
                     </ul>
                 </div>

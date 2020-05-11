@@ -16,35 +16,39 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PagesController@home');
 
 // page login-admin route
-Route::get('/login-admin', 'PagesController@login');
+Route::get('/login-admin', 'AuthController@login')->name('login');
+Route::post('/postlogin', 'AuthController@postlogin');
 
+// log out
+Route::get('/logout', 'AuthController@logout');
 // page bantuan
 Route::get('/bantuan', 'PagesController@bantuan');
 
-// dashboard
-// page dashboard profil
-Route::get('/dashboard-profil', 'DashboardController@profil');
+Route::group(['middleware' => 'auth'], function () {
 
-// Page dashboard all
-Route::get('/dashboard-all', 'DashboardController@all');
+    // dashboard
+    // page dashboard profil
+    Route::get('/dashboard-profil', 'DashboardController@profil');
 
-// page dahsboard proses
-Route::get('/dashboard-process', 'DashboardController@process');
+    // Page dashboard all
+    Route::get('/dashboard-all', 'DashboardController@all');
 
-// page dashboard selesai
-Route::get('/dashboard-done', 'DashboardController@done');
+    // page dahsboard proses
+    Route::get('/dashboard-process', 'DashboardController@process');
 
-// page dashboard tambah data
-Route::get('/tambah-ektp', 'DashboardController@tambah');
+    // page dashboard selesai
+    Route::get('/dashboard-done', 'DashboardController@done');
 
-// Membuat data baru
-Route::post('/dashboard-all', 'DashboardController@store');
+    // page dashboard tambah data
+    Route::get('/tambah-ektp', 'DashboardController@tambah');
+    Route::post('/dashboard-all', 'DashboardController@store');
 
-// page dashboard edit data
-Route::get('/{id}/edit', 'DashboardController@edit');
+    // page dashboard edit data
+    Route::get('/{id}/edit', 'DashboardController@edit');
 
-// Mengupdate data dari edit
-Route::post('/{id}/update', 'DashboardController@update');
+    // Mengupdate data dari edit
+    Route::post('/{id}/update', 'DashboardController@update');
 
-// mendelete data
-Route::get('/{id}/delete', 'DashboardController@delete');
+    // mendelete data
+    Route::get('/{id}/delete', 'DashboardController@delete');
+});

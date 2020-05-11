@@ -13,16 +13,17 @@
             </div>
 
             <div class="loginBox mx-auto">
-                <form>
+                <form action="/postlogin" method="POST">
+                {{csrf_field()}}
                     <div class="form-group">
                         <label for="username">User name</label>
-                        <input type="text" class="form-control" id="username" placeholder="Masukkan username..."
+                        <input type="text" class="form-control" id="username" placeholder="Masukkan username..." name="username" autocomplete="off"
                             autofocus>
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
                         <input type="password" class="form-control" id="password" placeholder="Masukkan password..."
-                            autofocus>
+                            autofocus name="password">
                     </div>
                     <button type="submit" class="btn btn-primary">LOG IN</button>
                 </form>

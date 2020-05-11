@@ -26,6 +26,17 @@ class DashboardController extends Controller
 
     public function store(Request $request)
     {
+        $this->validate($request, [
+            'email' => 'required|max:16',
+            'nama' => 'required|max:100',
+            'kota_lahir' => 'required|max:100',
+            'tanggal_lahir' => 'required|max:100',
+            'jenis_kelamin' => 'required|max:1',
+            'alamat' => 'required|max:100',
+            'kewarganegaraan' => 'required|max:3',
+            'email' => 'required|email|max:100',
+            'status_ektp' => 'required|max:100',
+        ]);
         \App\Data_ktp::create($request->all());
         return redirect('dashboard-all')->with('sukses', 'Data berhasil ditambah!');
     }
@@ -40,6 +51,17 @@ class DashboardController extends Controller
 
     public function update(Request $request, $id)
     {
+        $this->validate($request, [
+            'email' => 'required|max:16',
+            'nama' => 'required|max:100',
+            'kota_lahir' => 'required|max:100',
+            'tanggal_lahir' => 'required|max:100',
+            'jenis_kelamin' => 'required|max:1',
+            'alamat' => 'required|max:100',
+            'kewarganegaraan' => 'required|max:3',
+            'email' => 'required|email|max:100',
+            'status_ektp' => 'required|max:100',
+        ]);
         $ktp = \App\Data_ktp::find($id);
         $ktp->update($request->all());
 
