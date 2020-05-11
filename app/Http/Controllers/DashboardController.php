@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class DashboardController extends Controller
 {
@@ -81,11 +82,18 @@ class DashboardController extends Controller
 
     public function process()
     {
-        return view('admin/process');
+
+        $data_ktp = DB::table('data_ktp')
+            ->where('status_ektp', '=', 'Diproses')
+            ->get();
+        return view('admin/process', ['data_ktp' => $data_ktp]);
     }
 
     public function done()
     {
-        return view('admin/done');
+        $data_ktp = DB::table('data_ktp')
+            ->where('status_ektp', '=', 'Selesai')
+            ->get();
+        return view('admin/done', ['data_ktp' => $data_ktp]);
     }
 }
