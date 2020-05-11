@@ -24,7 +24,7 @@ Sebuah web yang membantu masyarakat dalam mencari informasi terkait pembuatan e-
 Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingung mencari informasi pemberitahuan tentang proses pembuatan e-KTP dan tidak tahu kapan harus mengambil e-KTP.
 
 ## User Story
-1.  Sebagai seorang sipil, saya ingin mengetahui informasi mengenai pembuatan e-KTP
+1.  Sebagai seorang sipil, saya ingin mengetahui informasi mengenai proses pembuatan e-KTP
 
 ## Use Case Diagram
 ![usecase](https://user-images.githubusercontent.com/60084468/81479748-6c950a80-924f-11ea-9396-cfe2a0590401.png)
@@ -40,4 +40,4 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 ### Send Email to Registrant
 
 ## Activity Diagram
-![TUGASKULIAH8 (1)](https://user-images.githubusercontent.com/60084317/81479739-5d15c180-924f-11ea-9e48-355fd526aca7.jpg)
+![activitydiagram](https://user-images.githubusercontent.com/60084468/81522261-208fb600-9374-11ea-8f34-4b05ad078d0f.png)
