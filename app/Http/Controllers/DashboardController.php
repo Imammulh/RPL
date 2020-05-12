@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
 class DashboardController extends Controller
 {
@@ -13,9 +12,13 @@ class DashboardController extends Controller
         return view('admin/profil');
     }
 
-    public function all()
+    public function all(Request $request)
     {
-        $data_ktp = \App\Data_ktp::all();
+        if ($request->has('cari')) {
+            $data_ktp = \App\Data_ktp::where('nik', 'LIKE', '%' . $request->cari . '%')->get();
+        } else {
+            $data_ktp = \App\Data_ktp::all();
+        }
         return view('admin/all', ['data_ktp' => $data_ktp]);
     }
 
@@ -80,20 +83,29 @@ class DashboardController extends Controller
     }
     // end
 
-    public function process()
+    public function process(Request $request)
     {
-
-        $data_ktp = DB::table('data_ktp')
-            ->where('status_ektp', '=', 'Diproses')
-            ->get();
+        if ($request->has('cari')) {
+            $this->validate($request, [
+                'cari' => 'required',
+            ]);
+            $data_ktp = \App\Data_ktp::where('nik', 'LIKE', '%' . $request->cari . '%')->get();
+        } else {
+            $data_ktp = \App\Data_ktp::where('status_ektp', '=', 'Diproses')->get();
+        }
         return view('admin/process', ['data_ktp' => $data_ktp]);
     }
 
-    public function done()
+    public function done(Request $request)
     {
-        $data_ktp = DB::table('data_ktp')
-            ->where('status_ektp', '=', 'Selesai')
-            ->get();
+        if ($request->has('cari')) {
+            $this->validate($request, [
+                'cari' => 'required',
+            ]);
+            $data_ktp = \App\Data_ktp::where('nik', 'LIKE', '%' . $request->cari . '%')->get();
+        } else {
+            $data_ktp = \App\Data_ktp::where('status_ektp', '=', 'Selesai')->get();
+        }
         return view('admin/done', ['data_ktp' => $data_ktp]);
     }
 }

@@ -22,7 +22,7 @@
                         <input type="text" autofocus class="form-control" id="inputNik" aria-describedby="emailHelp"
                             placeholder="Masukkan NIK anda">
                     </div>
-                    <button class="btn btn-primary" type="submit" name="cari">CARI</button>
+                    <a href="#" class="btn btn-primary">CARI</a>
                 </form>
             </div>
         </div>

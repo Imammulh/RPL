@@ -9,7 +9,7 @@
         <div class="container">
             <div class="head">
                 <div class="row text">
-                    <h2 class="col-12 font-weight-bold">Data e-KTP Selesia Diproses</h2>
+                    <h2 class="col-12 font-weight-bold">Data e-KTP Selesai Diproses</h2>
                 </div>
                 @if(session('sukses'))
                 <div class="row">
@@ -21,9 +21,9 @@
                 </div>
                 @endif
                 <div class="d-flex flex-row justify-content-between button">
-                    <form class="form-inline" action="" method="">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <form class="form-inline" action="/dashboard-done" method="GET">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Cari menggunakan NIK..." aria-label="Search" name="cari">
+                        <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Search</button>
                     </form>
                     <a href="/tambah-ektp" class="btn btn-primary">TAMBAH e-KTP</a>
                 </div>
