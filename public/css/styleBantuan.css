@@ -1,0 +1,21 @@
+.bantuan .head {
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.bantuan .head img {
+    max-height: 70px;
+    max-width: 70px;
+    margin-bottom: 16px;
+}
+
+.bantuan .card{
+    width: 790px;
+    padding: 16px;
+    border-radius: 13px;
+}
+
+.bantuan .card img{
+    max-height: 50px;
+    max-width: 50px;
+}

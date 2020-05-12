@@ -12,6 +12,6 @@ class PagesController extends Controller
 
     public function bantuan()
     {
-        return 'Bantuan';
+        return view('bantuan');
     }
 }

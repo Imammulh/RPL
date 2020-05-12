@@ -4,7 +4,7 @@ Web pemberitahuan informasi tentang proses pembuatan e-KTP
 ## Anggota Kelompok
  - Rafi Solichin (**G64180068**)
  - Imam Mulhaq Rosyadi (**G64180047**)
- - Firda Agustina (**G64180116**)
+ - Firda Agustin Kartika Pratiwi (**G64180116**)
 
 ## Latar Belakang
 Peningkatan dalam berbagai bidang terus diupayakan oleh pemerintah, termasuk dalam hal kependudukan. Salah satu upaya tersebut terwujud dalam bentuk Kartu Tanda Penduduk (KTP) elektronik atau e-KTP. Sistem ini memudahkan pendataan penduduk serta memudahkan proses administrasi menjadi lebih fleksibel. Proses administrasi menjadi lebih mudah karena dalam hal ini data penduduk tersimpan dalam data kependudukan secara baik, dan masyarakat tidak perlu memperpanjang e-KTP lima tahun sekali.
@@ -24,8 +24,12 @@ Sebuah web yang membantu masyarakat dalam mencari informasi terkait pembuatan e-
 Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingung mencari informasi pemberitahuan tentang proses pembuatan e-KTP dan tidak tahu kapan harus mengambil e-KTP.
 
 ## User Story
+1.  Sebagai seorang sipil, saya ingin mengetahui informasi mengenai proses pembuatan e-KTP
+2.  Sebagai seorang sipil, saya ingin mengetahui informasi-informasi umum terkait pembuatan e-KTP
 
 ## Use Case Diagram
+![usecase](https://user-images.githubusercontent.com/60084468/81479748-6c950a80-924f-11ea-9396-cfe2a0590401.png)
+
 
 ## Use Case Description
 ### Log In
@@ -37,3 +41,4 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 ### Send Email to Registrant
 
 ## Activity Diagram
+![activitydiagram](https://user-images.githubusercontent.com/60084468/81522261-208fb600-9374-11ea-8f34-4b05ad078d0f.png)
