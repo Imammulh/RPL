@@ -18,6 +18,9 @@
     margin-bottom: 60px;
 }
 
+.fa.active {
+    color: #2F80ED;
+}
 
 /* mobile styling */
 

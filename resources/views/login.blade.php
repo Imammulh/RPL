@@ -13,6 +13,11 @@
             </div>
 
             <div class="loginBox mx-auto">
+                @if(session('gagal'))
+                <div class="alert alert-danger" role="alert">
+                    {{session('gagal')}}
+                </div>
+                @endif
                 <form action="/postlogin" method="POST">
                 {{csrf_field()}}
                     <div class="form-group">
@@ -22,8 +27,11 @@
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
-                        <input type="password" class="form-control" id="password" placeholder="Masukkan password..."
-                            autofocus name="password">
+                        <div class="input-group-append">
+                            <input type="password" class="form-control" id="password" placeholder="Masukkan password..."
+                            autofocus name="password" data-toggle="password">
+                                <div class="input-group-text"><i class="fa fa-eye" id="eye"></i></div>
+                            </div>
                     </div>
                     <button type="submit" class="btn btn-primary">LOG IN</button>
                 </form>
@@ -32,4 +40,22 @@
     </div>
     <!-- end main -->
 
+@endsection
+
+@section('script')
+    <script>
+        var password = document.getElementById('password');
+        var eye = document.getElementById('eye');
+
+        eye.addEventListener('click', togglePass);
+
+        function togglePass()
+        {
+            eye.classList.toggle('active');
+
+            (password.type == 'password') ? password.type = 'text' :
+            password.type = 'password';
+        }
+
+    </script>
 @endsection

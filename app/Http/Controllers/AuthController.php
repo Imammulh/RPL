@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Auth;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
@@ -22,7 +22,7 @@ class AuthController extends Controller
         if (Auth::attempt($request->only('username', 'password'))) {
             return redirect('/dashboard-profil');
         }
-        return redirect('/login-admin');
+        return redirect('/login-admin')->with('gagal', 'Maaf username atau password yang anda masukkan salah.');
     }
 
     public function logout()
