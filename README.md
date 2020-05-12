@@ -25,6 +25,7 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 
 ## User Story
 1.  Sebagai seorang sipil, saya ingin mengetahui informasi mengenai proses pembuatan e-KTP
+2.  Sebagai seorang sipil, saya ingin mengetahui informasi-informasi umum terkait pembuatan e-KTP
 
 ## Use Case Diagram
 ![usecase](https://user-images.githubusercontent.com/60084468/81479748-6c950a80-924f-11ea-9396-cfe2a0590401.png)
