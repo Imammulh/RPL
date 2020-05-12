@@ -15,14 +15,15 @@ use Illuminate\Support\Facades\Route;
 // page search ktp route
 Route::get('/', 'PagesController@home');
 
+// page bantuan
+Route::get('/bantuan', 'PagesController@bantuan');
+
 // page login-admin route
 Route::get('/login-admin', 'AuthController@login')->name('login');
 Route::post('/postlogin', 'AuthController@postlogin');
 
 // log out
 Route::get('/logout', 'AuthController@logout');
-// page bantuan
-Route::get('/bantuan', 'PagesController@bantuan');
 
 Route::group(['middleware' => 'auth'], function () {
 
