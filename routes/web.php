@@ -52,4 +52,5 @@ Route::group(['middleware' => 'auth'], function () {
 
     // mendelete data
     Route::get('/{id}/delete', 'DashboardController@delete');
+
 });

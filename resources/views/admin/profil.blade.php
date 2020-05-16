@@ -13,7 +13,7 @@
                     <p class="col-12">Welcome back,<br>{{Auth()->user()->nama_kecamatan}}</p>
                 </div>
                 <div class="d-flex button">
-                    <a href="#" class="btn btn-info ml-auto">EDIT</a>
+                    <a href="/editprofil"class="btn btn-info ml-auto">EDIT</a>
                 </div>
             </div>
 
