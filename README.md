@@ -33,12 +33,19 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 
 ## Use Case Description
 ### Log In
+![1](https://user-images.githubusercontent.com/60084468/82014838-a2028380-96a7-11ea-9c7c-bbbc6cac16a7.PNG)
 ### Mencari NIK
+![2](https://user-images.githubusercontent.com/60084468/82014841-a3cc4700-96a7-11ea-9427-0e15b901ac06.PNG)
 ### Input Data e-KTP
+![3](https://user-images.githubusercontent.com/60084468/82014849-a6c73780-96a7-11ea-8ba7-57cedd8c51df.PNG)
 ### Delete Data e-KTP
+![4](https://user-images.githubusercontent.com/60084468/82014851-a890fb00-96a7-11ea-8203-c9e431c084eb.PNG)
 ### Edit Data Pembuat e-KTP
+![5](https://user-images.githubusercontent.com/60084468/82014853-aa5abe80-96a7-11ea-8341-9974081b1e54.PNG)
+![6](https://user-images.githubusercontent.com/60084468/82014860-ac248200-96a7-11ea-8462-0f6388b87e19.PNG)
 ### Report Data  yang Salah Pembuat e-KTP
+![7](https://user-images.githubusercontent.com/60084468/82014863-ad55af00-96a7-11ea-9f61-497a848dc21c.PNG)
 ### Send Email to Registrant
-
+![8](https://user-images.githubusercontent.com/60084468/82014865-ae86dc00-96a7-11ea-9dd5-8f66d58e54f1.PNG)
 ## Activity Diagram
 ![activitydiagram](https://user-images.githubusercontent.com/60084468/81522261-208fb600-9374-11ea-8f34-4b05ad078d0f.png)
