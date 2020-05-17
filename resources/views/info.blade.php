@@ -25,7 +25,7 @@
                              <p><b>{{ $ktp->nama }}</b></p>
                         </li class="">
                         	<label for="nama">Tanggal Dibuat:</label>
-                        	<p>{{ $ktp->created_at }}</p>
+                        	<p><b>{{ $ktp->created_at }}</b></p>
                         </li>
                         <li class="">
                             <label for="nama">Status e-KTP:</label>
