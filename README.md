@@ -52,3 +52,5 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 ## Gantt Chart
 ![Ganttchart](https://user-images.githubusercontent.com/60084317/82151351-573e6280-9885-11ea-9318-d9521bce4eba.jpg)
 
+## ERD
+![ERD-RPL](https://user-images.githubusercontent.com/60084468/82158781-288bb080-98b4-11ea-88bf-615bcad1d218.png)
