@@ -49,3 +49,5 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 ![8](https://user-images.githubusercontent.com/60084468/82014865-ae86dc00-96a7-11ea-9dd5-8f66d58e54f1.PNG)
 ## Activity Diagram
 ![activitydiagram](https://user-images.githubusercontent.com/60084468/81522261-208fb600-9374-11ea-8f34-4b05ad078d0f.png)
+## Gantt Chart
+![gant chart](https://user-images.githubusercontent.com/60084317/82149046-3b848d80-9880-11ea-8c51-0d950f46f80a.png)
