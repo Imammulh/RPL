@@ -1,0 +1,63 @@
+/* main */
+.searchKtp {
+    margin: 80px 0px;
+}
+
+.searchKtp .illus {
+    margin-bottom: 24px;
+}
+
+.searchKtp .illus img {
+    width: 85px;
+    height: 75.89px;
+    max-height: 75.89px;
+}
+
+.searchKtp .illus h3 {
+    font-weight: 700;
+}
+
+.searchKtp .illus p {
+    width: 640px;
+    margin: 0px auto;
+    color: #828282;
+}
+
+.searchBox {
+    background-color: white;
+    padding: 36px;
+    width: 540px;
+    border-radius: 16px;
+    box-shadow: 4px 0px 24px rgba(0, 0, 0, 0.04);
+}
+
+/* mobile styling */
+
+@media only screen and (max-width: 800px) {
+    .searchKtp .illus p {
+        width: 400px;
+    }
+
+    .searchBox {
+        width: 460px;
+    }
+}
+
+
+.modal-body li {
+    list-style-type: none;
+}
+
+.modal-body label {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.modal-body li p {
+    /* margin-bottom: 0px; */
+    font-weight: 700;
+    color: #333333;
+    font-size: 18px;
+}

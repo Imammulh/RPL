@@ -14,18 +14,18 @@
                     <p>Lakukan pencarian e-KTP mu menggunakan NIK untuk mengetahui proses pembuatan e-KTP mu.</p>
                 </div>
             </div>
-
             <div class="searchBox mx-auto">
-                <form action="">
+                <form action="info" method="GET">
                     <div class="form-group">
                         <label for="inputNik">NIK</label>
                         <input type="text" autofocus class="form-control" id="inputNik" aria-describedby="emailHelp"
-                            placeholder="Masukkan NIK anda">
+                            placeholder="Masukkan NIK anda" name="cariinfo">
                     </div>
-                    <a href="#" class="btn btn-primary">CARI</a>
+                    <button type="submit" class="btn btn-primary">CARI</button> 
                 </form>
             </div>
         </div>
     </div>
+
     <!-- end main -->
 @endsection
