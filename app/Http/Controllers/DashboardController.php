@@ -12,6 +12,30 @@ class DashboardController extends Controller
         return view('admin/profil');
     }
 
+    // fungsi edit profil
+    public function editprofil($id)
+    {
+        $admin = \App\User::find($id);
+        return view('admin/editprofil', ['admin' => $admin]);
+    }
+
+    public function updateprofil(Request $request, $id)
+    {
+        $this->validate($request,
+        [
+            'nama_kecamatan' => 'required|max:50',
+            'alamat_kecamatan' => 'required|max:100',
+            'camat' => 'required|max:50'
+        ]
+        );
+        $admin = \App\User::find($id);
+        $admin->update($request->all());
+
+        return redirect('dashboard-profil')->with('sukses', 'Profil berhasil diupdate!');
+    }
+    // end 
+
+    // fungsi search pada admin
     public function all(Request $request)
     {
         if ($request->has('cari')) {

@@ -31,6 +31,9 @@ Route::group(['middleware' => 'auth'], function () {
     // page dashboard profil
     Route::get('/dashboard-profil', 'DashboardController@profil');
 
+    Route::get('/{id}/editprofil', 'DashboardController@editprofil');
+    Route::post('/{id}/updateprofil', 'DashboardController@updateprofil');
+
     // Page dashboard all
     Route::get('/dashboard-all', 'DashboardController@all');
 
