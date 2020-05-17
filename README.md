@@ -54,3 +54,5 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 
 ## ERD
 ![ERD-RPL](https://user-images.githubusercontent.com/60084468/82158781-288bb080-98b4-11ea-88bf-615bcad1d218.png)
+
+## Hasil Implementasi Perangkat Lunak
