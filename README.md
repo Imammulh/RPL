@@ -102,3 +102,6 @@ Delete untuk menghapus data KTP
 
 Tambah e-KTP untuk menambahkan data KTP
 ![image](https://user-images.githubusercontent.com/60084468/82171207-da48d280-98f0-11ea-970d-9077b5d84b5e.png)
+
+## PAGE BANTUAN
+![image](https://user-images.githubusercontent.com/60084468/82171625-26e0dd80-98f2-11ea-8636-d278f8d2a0a3.png)
