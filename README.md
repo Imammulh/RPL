@@ -66,14 +66,17 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 ### Landing Page
 User memasukkan NIK guna mencari informasi yang dibutuhkan
 ![image](https://user-images.githubusercontent.com/60084468/82170406-876e1b80-98ee-11ea-989c-eba2b207c930.png)
+![image](https://user-images.githubusercontent.com/60084317/82177952-1a19b500-9905-11ea-8a11-c406f94e385b.png)
 
 ### INFO KTP
 User yang telah berhasil memasukkan NIK sesuai akan disuguhi oleh tampilan info dari KTP yang telah dibuat, jika salah memasukkan NIK maka user akan dikembalikan ke tampilan landing page
 ![image](https://user-images.githubusercontent.com/60084468/82171270-019f9f80-98f1-11ea-9671-9c49789b1699.png)
+![image](https://user-images.githubusercontent.com/60084317/82178109-6d8c0300-9905-11ea-86db-c997eb16cd5e.png)
 
 ### Login Admin
 Admin memasukkan user name dan password untuk mengakses data data KTP
 ![image](https://user-images.githubusercontent.com/60084468/82170470-b5ebf680-98ee-11ea-8d44-01b772a13b0c.png)
+![image](https://user-images.githubusercontent.com/60084317/82178226-b6dc5280-9905-11ea-8995-d2eeec46cc03.png)
 
 Dashboard Profil setelah login Admin
 ![image](https://user-images.githubusercontent.com/60084468/82170567-08c5ae00-98ef-11ea-9ebc-f2a612cfff87.png)
@@ -84,6 +87,7 @@ Page Edit Profil Admin
 ### Dashboard Utama Admin
 Dashboard Utama Admin berisi data data KTP yang telah diinput sebelumnya oleh admin
 ![image](https://user-images.githubusercontent.com/60084468/82170814-b769ee80-98ef-11ea-8244-a815009b9aad.png)
+![image](https://user-images.githubusercontent.com/60084317/82178313-e12e1000-9905-11ea-809e-36320b6f369c.png)
 
 Data-data KTP yang masih dalam proses
 ![image](https://user-images.githubusercontent.com/60084468/82170938-13cd0e00-98f0-11ea-8bd0-6f8ba402e4d9.png)
