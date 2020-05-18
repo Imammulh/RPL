@@ -80,9 +80,11 @@ Admin memasukkan user name dan password untuk mengakses data data KTP
 
 Dashboard Profil setelah login Admin
 ![image](https://user-images.githubusercontent.com/60084468/82170567-08c5ae00-98ef-11ea-9ebc-f2a612cfff87.png)
+![image](https://user-images.githubusercontent.com/60084317/82179330-48e55a80-9908-11ea-903e-b54887a80c42.png)
 
 Page Edit Profil Admin
 ![image](https://user-images.githubusercontent.com/60084468/82170676-580bde80-98ef-11ea-8491-6b9f4bf14817.png)
+![image](https://user-images.githubusercontent.com/60084317/82179244-0c196380-9908-11ea-9a59-c725c5096b5f.png)
 
 ### Dashboard Utama Admin
 Dashboard Utama Admin berisi data data KTP yang telah diinput sebelumnya oleh admin
@@ -99,6 +101,7 @@ Data-data KTP yang sudah selesai diproses dan bisa diambil di kecamatan terkait
 
 Show untuk melihat detil lengkap data KTP
 ![image](https://user-images.githubusercontent.com/60084468/82171022-55f64f80-98f0-11ea-85d8-8cc8d4db0aa9.png)
+![image](https://user-images.githubusercontent.com/60084317/82179445-8cd85f80-9908-11ea-8419-200327bf1dee.png)
 
 Edit untuk mengedit data KTP
 ![image](https://user-images.githubusercontent.com/60084468/82171096-88a04800-98f0-11ea-8b58-622e70013f42.png)
@@ -106,6 +109,7 @@ Edit untuk mengedit data KTP
 
 Delete untuk menghapus data KTP
 ![image](https://user-images.githubusercontent.com/60084468/82171452-8db1c700-98f1-11ea-9405-0386d7058ddd.png)
+![image](https://user-images.githubusercontent.com/60084317/82179639-06704d80-9909-11ea-9ef9-18c90dcc296d.png)
 
 Tambah e-KTP untuk menambahkan data KTP
 ![image](https://user-images.githubusercontent.com/60084468/82171207-da48d280-98f0-11ea-970d-9077b5d84b5e.png)
