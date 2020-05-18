@@ -97,5 +97,8 @@ Show untuk melihat detil lengkap data KTP
 Edit untuk mengedit data KTP
 ![image](https://user-images.githubusercontent.com/60084468/82171096-88a04800-98f0-11ea-8b58-622e70013f42.png)
 
+Delete untuk menghapus data KTP
+![image](https://user-images.githubusercontent.com/60084468/82171452-8db1c700-98f1-11ea-9405-0386d7058ddd.png)
+
 Tambah e-KTP untuk menambahkan data KTP
 ![image](https://user-images.githubusercontent.com/60084468/82171207-da48d280-98f0-11ea-970d-9077b5d84b5e.png)
