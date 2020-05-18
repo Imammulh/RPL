@@ -16,6 +16,13 @@ Namun diatas itu semua, masyarakat masih merasakan beberapa kesulitan dalam pemb
 2.  Mempermudah penyampaian informasi dari petugas kecamatan ke masyarakat
 
 ## Ruang Lingkup
+### Minimum Requirement
+1.  Operating System : Windows 7 or later
+2.  Processor        : 2.0 Ghz Processor
+3.  Memory           : 4GB DDR4-2400 / Pc4-19200
+4.  Screen Resolution: 800x600 or later
+### Engineering Process
+Software dibuat menggunakan metode Scrum dengan prinspi-prinsip pendekatan agile
 
 ## Deskripsi Aplikasi
 Sebuah web yang membantu masyarakat dalam mencari informasi terkait pembuatan e-KTP dan membantu petugas kecamatan menyampaikan informasi terkait selesainya proses pembuatan e-KTP.
@@ -56,3 +63,39 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 ![ERD-RPL](https://user-images.githubusercontent.com/60084468/82158781-288bb080-98b4-11ea-88bf-615bcad1d218.png)
 
 ## Hasil Implementasi Perangkat Lunak
+### Landing Page
+User memasukkan NIK guna mencari informasi yang dibutuhkan
+![image](https://user-images.githubusercontent.com/60084468/82170406-876e1b80-98ee-11ea-989c-eba2b207c930.png)
+
+### INFO KTP
+User yang telah berhasil memasukkan NIK sesuai akan disuguhi oleh tampilan info dari KTP yang telah dibuat, jika salah memasukkan NIK maka user akan dikembalikan ke tampilan landing page
+![image](https://user-images.githubusercontent.com/60084468/82171270-019f9f80-98f1-11ea-9671-9c49789b1699.png)
+
+### Login Admin
+Admin memasukkan user name dan password untuk mengakses data data KTP
+![image](https://user-images.githubusercontent.com/60084468/82170470-b5ebf680-98ee-11ea-8d44-01b772a13b0c.png)
+
+Dashboard Profil setelah login Admin
+![image](https://user-images.githubusercontent.com/60084468/82170567-08c5ae00-98ef-11ea-9ebc-f2a612cfff87.png)
+
+Page Edit Profil Admin
+![image](https://user-images.githubusercontent.com/60084468/82170676-580bde80-98ef-11ea-8491-6b9f4bf14817.png)
+
+### Dashboard Utama Admin
+Dashboard Utama Admin berisi data data KTP yang telah diinput sebelumnya oleh admin
+![image](https://user-images.githubusercontent.com/60084468/82170814-b769ee80-98ef-11ea-8244-a815009b9aad.png)
+
+Data-data KTP yang masih dalam proses
+![image](https://user-images.githubusercontent.com/60084468/82170938-13cd0e00-98f0-11ea-8bd0-6f8ba402e4d9.png)
+
+Data-data KTP yang sudah selesai diproses dan bisa diambil di kecamatan terkait
+![image](https://user-images.githubusercontent.com/60084468/82170999-3f4ff880-98f0-11ea-8f9f-9123dcd88ff9.png)
+
+Show untuk melihat detil lengkap data KTP
+![image](https://user-images.githubusercontent.com/60084468/82171022-55f64f80-98f0-11ea-85d8-8cc8d4db0aa9.png)
+
+Edit untuk mengedit data KTP
+![image](https://user-images.githubusercontent.com/60084468/82171096-88a04800-98f0-11ea-8b58-622e70013f42.png)
+
+Tambah e-KTP untuk menambahkan data KTP
+![image](https://user-images.githubusercontent.com/60084468/82171207-da48d280-98f0-11ea-970d-9077b5d84b5e.png)
