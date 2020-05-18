@@ -91,21 +91,27 @@ Dashboard Utama Admin berisi data data KTP yang telah diinput sebelumnya oleh ad
 
 Data-data KTP yang masih dalam proses
 ![image](https://user-images.githubusercontent.com/60084468/82170938-13cd0e00-98f0-11ea-8bd0-6f8ba402e4d9.png)
+![image](https://user-images.githubusercontent.com/60084317/82178552-7d581700-9906-11ea-8191-3e5c8bf610c0.png)
 
 Data-data KTP yang sudah selesai diproses dan bisa diambil di kecamatan terkait
 ![image](https://user-images.githubusercontent.com/60084468/82170999-3f4ff880-98f0-11ea-8f9f-9123dcd88ff9.png)
+![image](https://user-images.githubusercontent.com/60084317/82178467-3ff38980-9906-11ea-97b4-a033e83029ba.png)
 
 Show untuk melihat detil lengkap data KTP
 ![image](https://user-images.githubusercontent.com/60084468/82171022-55f64f80-98f0-11ea-85d8-8cc8d4db0aa9.png)
 
 Edit untuk mengedit data KTP
 ![image](https://user-images.githubusercontent.com/60084468/82171096-88a04800-98f0-11ea-8b58-622e70013f42.png)
+![image](https://user-images.githubusercontent.com/60084317/82178650-ad9fb580-9906-11ea-9273-00e7aaac7aec.png)
 
 Delete untuk menghapus data KTP
 ![image](https://user-images.githubusercontent.com/60084468/82171452-8db1c700-98f1-11ea-9405-0386d7058ddd.png)
 
 Tambah e-KTP untuk menambahkan data KTP
 ![image](https://user-images.githubusercontent.com/60084468/82171207-da48d280-98f0-11ea-970d-9077b5d84b5e.png)
+![image](https://user-images.githubusercontent.com/60084317/82178715-d58f1900-9906-11ea-83af-653f94d15d34.png)
 
 ## PAGE BANTUAN
 ![image](https://user-images.githubusercontent.com/60084468/82171625-26e0dd80-98f2-11ea-8636-d278f8d2a0a3.png)
+![image](https://user-images.githubusercontent.com/60084317/82178788-053e2100-9907-11ea-8669-6a2f7e7b5f2b.png)
+
