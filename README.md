@@ -2,9 +2,9 @@
 Web pemberitahuan informasi tentang proses pembuatan e-KTP
 
 ## Anggota Kelompok
- - Rafi Solichin (**G64180068**)
- - Imam Mulhaq Rosyadi (**G64180047**)
- - Firda Agustin Kartika Pratiwi (**G64180116**)
+ - Rafi Solichin (**G64180068**) (**Front End Engineer**)
+ - Imam Mulhaq Rosyadi (**G64180047**) (**Project Leader**)
+ - Firda Agustin Kartika Pratiwi (**G64180116**) (**Back End Engineer**)
 
 ## Latar Belakang
 Peningkatan dalam berbagai bidang terus diupayakan oleh pemerintah, termasuk dalam hal kependudukan. Salah satu upaya tersebut terwujud dalam bentuk Kartu Tanda Penduduk (KTP) elektronik atau e-KTP. Sistem ini memudahkan pendataan penduduk serta memudahkan proses administrasi menjadi lebih fleksibel. Proses administrasi menjadi lebih mudah karena dalam hal ini data penduduk tersimpan dalam data kependudukan secara baik, dan masyarakat tidak perlu memperpanjang e-KTP lima tahun sekali.
