@@ -63,6 +63,11 @@ Target dari aplikasi ini adalah seseorang yang baru saja membuat e-KTP dan bingu
 ![ERD-RPL (1)](https://user-images.githubusercontent.com/60084468/82224572-342bb580-994e-11ea-9881-a77a4335ab91.png)
 
 ## Hasil Implementasi Perangkat Lunak
+### Controller
+![image](https://user-images.githubusercontent.com/60084317/82342638-0dd44b80-9a1c-11ea-9015-fe90d700f5fb.png)
+![image](https://user-images.githubusercontent.com/60084317/82342795-41af7100-9a1c-11ea-86db-7d774643d56a.png)
+![image](https://user-images.githubusercontent.com/60084317/82342849-4ffd8d00-9a1c-11ea-877f-3bea6bfa0ffc.png)
+
 ### Landing Page
 User memasukkan NIK guna mencari informasi yang dibutuhkan
 ![image](https://user-images.githubusercontent.com/60084468/82170406-876e1b80-98ee-11ea-989c-eba2b207c930.png)
